@@ -1,0 +1,487 @@
+TToyClock
+v7
+r0
+t317033490.818418
+cCheck dependencies
+cCpResource build/Debug-iphoneos/ToyClock.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app/Info.plist ToyClock-Info.plist
+cCompileXIB /Users/test/Desktop/ToyClock/MainWindow.xib
+cCompileXIB /Users/test/Desktop/ToyClock/Classes/displayClockViewController.xib
+cCopyPNGFile /Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app/clock.png clock.png
+cProcessPCH /var/folders/Ny/Nyo1sDkIEfKsOgMbnrHAZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ToyClock_Prefix-cmdoewzlycmkzkbjtvbjdwvwdwhm/ToyClock_Prefix.pch.gch ToyClock_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/Ny/Nyo1sDkIEfKsOgMbnrHAZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ToyClock_Prefix-codevnjvtlzuttbokythbofaxkba/ToyClock_Prefix.pch.gch ToyClock_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv6/main.o /Users/test/Desktop/ToyClock/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv6/ToyClockAppDelegate.o /Users/test/Desktop/ToyClock/Classes/ToyClockAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv6/displayClockViewController.o /Users/test/Desktop/ToyClock/Classes/displayClockViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv7/main.o /Users/test/Desktop/ToyClock/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv7/ToyClockAppDelegate.o /Users/test/Desktop/ToyClock/Classes/ToyClockAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv7/displayClockViewController.o /Users/test/Desktop/ToyClock/Classes/displayClockViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv6/ToyClock normal armv6
+cLd /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv7/ToyClock normal armv7
+cCreateUniversalBinary /Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app/ToyClock normal "armv6 armv7"
+cGenerateDSYMFile /Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app.dSYM /Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app/ToyClock
+cProcessProductPackaging "/Users/test/Library/MobileDevice/Provisioning Profiles/FD0F313F-6815-44FA-989E-F737415F2D5E.mobileprovision" /Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app/embedded.mobileprovision
+cTouch /Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock.xcent
+cCodeSign /Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/test/Desktop/ToyClock/Classes/ToyClockAppDelegate.h
+c000000004D352A480000000000000248
+t1295329864
+s584
+i<UIKit/UIKit.h>
+i"displayClockViewController.h"
+
+N/Users/test/Desktop/ToyClock/Classes/ToyClockAppDelegate.m
+c000000004D3539820000000000000B80
+t1295333762
+s2944
+i"ToyClockAppDelegate.h"
+
+N/Users/test/Desktop/ToyClock/Classes/displayClockViewController.h
+c000000004D3526120000000000000165
+t1295328786
+s357
+i<UIKit/UIKit.h>
+
+N/Users/test/Desktop/ToyClock/Classes/displayClockViewController.m
+c000000004D354FC50000000000000B1F
+t1295339461
+s2847
+i"displayClockViewController.h"
+
+N/Users/test/Desktop/ToyClock/Classes/displayClockViewController.xib
+c000000004D354F5200000000000044DC
+t1295339346
+s17628
+
+N/Users/test/Desktop/ToyClock/MainWindow.xib
+c000000004D35387D0000000000004E92
+t1295333501
+s20114
+
+N/Users/test/Desktop/ToyClock/ToyClock_Prefix.pch
+c000000004D351FED00000000000000B9
+t1295327213
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app
+t1295340690
+s374
+
+N/Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app.dSYM
+t1295340690
+s102
+
+N/Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app/Info.plist
+t1295340688
+s855
+
+N/Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app/MainWindow.nib
+t1295340689
+s1532
+
+N/Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app/PkgInfo
+t1295340688
+s8
+
+N/Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app/ResourceRules.plist
+t1295340688
+s485
+
+N/Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app/ToyClock
+t1295340690
+s52124
+
+N/Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app/clock.png
+t2
+s0
+
+N/Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app/displayClockViewController.nib
+t1295340689
+s2082
+
+N/Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app/embedded.mobileprovision
+t1295340690
+s9550
+
+N/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv6/ToyClock
+t1295340690
+s23452
+
+N/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv6/ToyClock.LinkFileList
+c000000004D3554900000000000000169
+t1295340688
+s361
+
+N/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv6/ToyClockAppDelegate.o
+t1295340690
+s52540
+
+N/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv6/displayClockViewController.o
+t1295340690
+s45332
+
+N/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv6/main.o
+t1295340690
+s6428
+
+N/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv7/ToyClock
+t1295340690
+s23452
+
+N/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv7/ToyClock.LinkFileList
+c000000004D3554900000000000000169
+t1295340688
+s361
+
+N/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv7/ToyClockAppDelegate.o
+t1295340690
+s52392
+
+N/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv7/displayClockViewController.o
+t1295340690
+s45156
+
+N/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv7/main.o
+t1295340690
+s6412
+
+N/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock.xcent
+t1295340690
+s422
+
+N/Users/test/Desktop/ToyClock/clock.png
+c000000004D3550A00000000000005FB1
+t1295339680
+s24497
+
+N/Users/test/Desktop/ToyClock/main.m
+c000000004D351FED0000000000000162
+t1295327213
+s354
+i<UIKit/UIKit.h>
+
+N/Users/test/Library/MobileDevice/Provisioning Profiles/FD0F313F-6815-44FA-989E-F737415F2D5E.mobileprovision
+c000000004D2FE233000000000000254E
+t1294983731
+s9550
+
+N/var/folders/Ny/Nyo1sDkIEfKsOgMbnrHAZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ToyClock_Prefix-cmdoewzlycmkzkbjtvbjdwvwdwhm/ToyClock_Prefix.pch.gch
+t1295340690
+s10000088
+
+N/var/folders/Ny/Nyo1sDkIEfKsOgMbnrHAZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ToyClock_Prefix-codevnjvtlzuttbokythbofaxkba/ToyClock_Prefix.pch.gch
+t1295340690
+s10467032
+
+N/var/folders/Ny/Nyo1sDkIEfKsOgMbnrHAZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ToyClock_Prefix-feuhifgyqnxrldaevndivvyxkkkx/ToyClock_Prefix.pch.gch
+t1295335182
+s9983704
+
+N/var/folders/Ny/Nyo1sDkIEfKsOgMbnrHAZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ToyClock_Prefix-gwytpiomcyiykmfbpmmrpzaujryx/ToyClock_Prefix.pch.gch
+t1295335183
+s10446552
+
+NToyClock-Info.plist
+c000000004D35548800000000000003BD
+t1295340680
+s957
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies317033488#317033488#0(0"0(0#1#0"2424033936#0"0#
+
+CCodeSign /Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app
+s317033490.638333
+e317033490.818372
+r1
+xCodeSign
+x/Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app
+lSLF07#2@42"CodeSign build/Debug-iphoneos/ToyClock.app317033490#317033490#0(0"0(0#0#62"/Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app2424033936#611"    cd /Users/test/Desktop/ToyClock    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Ting Zhang (VYK5Z8HA2C)" --resource-rules=/Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app/ResourceRules.plist --entitlements /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock.xcent /Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app0#
+
+CCompileC build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv6/ToyClockAppDelegate.o /Users/test/Desktop/ToyClock/Classes/ToyClockAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317033490.408163
+e317033490.512332
+r1
+xCompileC
+xbuild/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv6/ToyClockAppDelegate.o
+x/Users/test/Desktop/ToyClock/Classes/ToyClockAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/test/Desktop/ToyClock/Classes/ToyClockAppDelegate.m317033490#317033490#0(0"0(0#0#58"/Users/test/Desktop/ToyClock/Classes/ToyClockAppDelegate.m2424033936#1674"    cd /Users/test/Desktop/ToyClock    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock-generated-files.hmap -I/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock-own-target-headers.hmap -I/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock-all-target-headers.hmap -iquote /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock-project-headers.hmap -F/Users/test/Desktop/ToyClock/build/Debug-iphoneos -I/Users/test/Desktop/ToyClock/build/Debug-iphoneos/include -I/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/DerivedSources/armv6 -I/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/DerivedSources -include /var/folders/Ny/Nyo1sDkIEfKsOgMbnrHAZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ToyClock_Prefix-cmdoewzlycmkzkbjtvbjdwvwdwhm/ToyClock_Prefix.pch -c /Users/test/Desktop/ToyClock/Classes/ToyClockAppDelegate.m -o /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv6/ToyClockAppDelegate.o0#
+
+CCompileC build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv6/displayClockViewController.o /Users/test/Desktop/ToyClock/Classes/displayClockViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317033490.409354
+e317033490.508438
+r1
+xCompileC
+xbuild/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv6/displayClockViewController.o
+x/Users/test/Desktop/ToyClock/Classes/displayClockViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/test/Desktop/ToyClock/Classes/displayClockViewController.m317033490#317033490#0(0"0(0#0#65"/Users/test/Desktop/ToyClock/Classes/displayClockViewController.m2424033936#1688"    cd /Users/test/Desktop/ToyClock    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock-generated-files.hmap -I/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock-own-target-headers.hmap -I/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock-all-target-headers.hmap -iquote /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock-project-headers.hmap -F/Users/test/Desktop/ToyClock/build/Debug-iphoneos -I/Users/test/Desktop/ToyClock/build/Debug-iphoneos/include -I/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/DerivedSources/armv6 -I/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/DerivedSources -include /var/folders/Ny/Nyo1sDkIEfKsOgMbnrHAZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ToyClock_Prefix-cmdoewzlycmkzkbjtvbjdwvwdwhm/ToyClock_Prefix.pch -c /Users/test/Desktop/ToyClock/Classes/displayClockViewController.m -o /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv6/displayClockViewController.o0#
+
+CCompileC build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv6/main.o /Users/test/Desktop/ToyClock/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317033490.407051
+e317033490.464691
+r1
+xCompileC
+xbuild/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv6/main.o
+x/Users/test/Desktop/ToyClock/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@43"Compile /Users/test/Desktop/ToyClock/main.m317033490#317033490#0(0"0(0#0#35"/Users/test/Desktop/ToyClock/main.m2424033936#1636"    cd /Users/test/Desktop/ToyClock    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock-generated-files.hmap -I/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock-own-target-headers.hmap -I/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock-all-target-headers.hmap -iquote /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock-project-headers.hmap -F/Users/test/Desktop/ToyClock/build/Debug-iphoneos -I/Users/test/Desktop/ToyClock/build/Debug-iphoneos/include -I/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/DerivedSources/armv6 -I/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/DerivedSources -include /var/folders/Ny/Nyo1sDkIEfKsOgMbnrHAZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ToyClock_Prefix-cmdoewzlycmkzkbjtvbjdwvwdwhm/ToyClock_Prefix.pch -c /Users/test/Desktop/ToyClock/main.m -o /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv7/ToyClockAppDelegate.o /Users/test/Desktop/ToyClock/Classes/ToyClockAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317033490.465732
+e317033490.564443
+r1
+xCompileC
+xbuild/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv7/ToyClockAppDelegate.o
+x/Users/test/Desktop/ToyClock/Classes/ToyClockAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/test/Desktop/ToyClock/Classes/ToyClockAppDelegate.m317033490#317033490#0(0"0(0#0#58"/Users/test/Desktop/ToyClock/Classes/ToyClockAppDelegate.m2424033936#1674"    cd /Users/test/Desktop/ToyClock    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock-generated-files.hmap -I/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock-own-target-headers.hmap -I/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock-all-target-headers.hmap -iquote /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock-project-headers.hmap -F/Users/test/Desktop/ToyClock/build/Debug-iphoneos -I/Users/test/Desktop/ToyClock/build/Debug-iphoneos/include -I/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/DerivedSources/armv7 -I/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/DerivedSources -include /var/folders/Ny/Nyo1sDkIEfKsOgMbnrHAZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ToyClock_Prefix-codevnjvtlzuttbokythbofaxkba/ToyClock_Prefix.pch -c /Users/test/Desktop/ToyClock/Classes/ToyClockAppDelegate.m -o /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv7/ToyClockAppDelegate.o0#
+
+CCompileC build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv7/displayClockViewController.o /Users/test/Desktop/ToyClock/Classes/displayClockViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317033490.476149
+e317033490.564763
+r1
+xCompileC
+xbuild/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv7/displayClockViewController.o
+x/Users/test/Desktop/ToyClock/Classes/displayClockViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/test/Desktop/ToyClock/Classes/displayClockViewController.m317033490#317033490#0(0"0(0#0#65"/Users/test/Desktop/ToyClock/Classes/displayClockViewController.m2424033936#1688"    cd /Users/test/Desktop/ToyClock    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock-generated-files.hmap -I/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock-own-target-headers.hmap -I/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock-all-target-headers.hmap -iquote /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock-project-headers.hmap -F/Users/test/Desktop/ToyClock/build/Debug-iphoneos -I/Users/test/Desktop/ToyClock/build/Debug-iphoneos/include -I/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/DerivedSources/armv7 -I/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/DerivedSources -include /var/folders/Ny/Nyo1sDkIEfKsOgMbnrHAZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ToyClock_Prefix-codevnjvtlzuttbokythbofaxkba/ToyClock_Prefix.pch -c /Users/test/Desktop/ToyClock/Classes/displayClockViewController.m -o /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv7/displayClockViewController.o0#
+
+CCompileC build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv7/main.o /Users/test/Desktop/ToyClock/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317033490.410605
+e317033490.475986
+r1
+xCompileC
+xbuild/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv7/main.o
+x/Users/test/Desktop/ToyClock/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@43"Compile /Users/test/Desktop/ToyClock/main.m317033490#317033490#0(0"0(0#0#35"/Users/test/Desktop/ToyClock/main.m2424033936#1636"    cd /Users/test/Desktop/ToyClock    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock-generated-files.hmap -I/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock-own-target-headers.hmap -I/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock-all-target-headers.hmap -iquote /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock-project-headers.hmap -F/Users/test/Desktop/ToyClock/build/Debug-iphoneos -I/Users/test/Desktop/ToyClock/build/Debug-iphoneos/include -I/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/DerivedSources/armv7 -I/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/DerivedSources -include /var/folders/Ny/Nyo1sDkIEfKsOgMbnrHAZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ToyClock_Prefix-codevnjvtlzuttbokythbofaxkba/ToyClock_Prefix.pch -c /Users/test/Desktop/ToyClock/main.m -o /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/test/Desktop/ToyClock/Classes/displayClockViewController.xib
+s317033488.984790
+e317033489.442782
+r1
+xCompileXIB
+x/Users/test/Desktop/ToyClock/Classes/displayClockViewController.xib
+lSLF07#2@49"CompileXIB Classes/displayClockViewController.xib317033488#317033489#0(0"0(0#0#67"/Users/test/Desktop/ToyClock/Classes/displayClockViewController.xib2424033936#555"    cd /Users/test/Desktop/ToyClock    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app/displayClockViewController.nib /Users/test/Desktop/ToyClock/Classes/displayClockViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/test/Desktop/ToyClock/MainWindow.xib
+s317033488.983933
+e317033489.423850
+r1
+xCompileXIB
+x/Users/test/Desktop/ToyClock/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib317033488#317033489#0(0"0(0#0#43"/Users/test/Desktop/ToyClock/MainWindow.xib2424033936#515"    cd /Users/test/Desktop/ToyClock    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app/MainWindow.nib /Users/test/Desktop/ToyClock/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCopyPNGFile /Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app/clock.png clock.png
+s317033488.985589
+e317033489.014709
+r1
+xCopyPNGFile
+x/Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app/clock.png
+xclock.png
+o
+oWhile reading /Users/test/Desktop/ToyClock/clock.png pngcrush caught libpng error:
+o   Not a PNG file..
+o
+oCould not find file: /Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app/clock.png
+lSLF07#2@65"CopyPNGFile build/Debug-iphoneos/ToyClock.app/clock.png clock.png317033488#317033489#0(199"While reading /Users/test/Desktop/ToyClock/clock.png pngcrush caught libpng error:   Not a PNG file..Could not find file: /Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app/clock.png0(0#0#38"/Users/test/Desktop/ToyClock/clock.png2424033936#529"    cd /Users/test/Desktop/ToyClock    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/test/Desktop/ToyClock/clock.png /Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app/clock.png0#
+
+CCpResource build/Debug-iphoneos/ToyClock.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s317033488.977949
+e317033488.983362
+r1
+xCpResource
+xbuild/Debug-iphoneos/ToyClock.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist317033488#317033488#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist2424033936#475"    cd /Users/test/Desktop/ToyClock    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app0#
+
+CCreateUniversalBinary /Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app/ToyClock normal "armv6 armv7"
+s317033490.587154
+e317033490.589924
+r1
+xCreateUniversalBinary
+x/Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app/ToyClock
+xnormal
+xarmv6 armv7
+lSLF07#2@85"CreateUniversalBinary build/Debug-iphoneos/ToyClock.app/ToyClock normal "armv6 armv7"317033490#317033490#0(0"0(0#0#40"/Users/test/Desktop/ToyClock/armv6 armv72424033936#486"    cd /Users/test/Desktop/ToyClock    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv6/ToyClock /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv7/ToyClock -output /Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app/ToyClock0#
+
+CGenerateDSYMFile /Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app.dSYM /Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app/ToyClock
+s317033490.590006
+e317033490.611369
+r1
+xGenerateDSYMFile
+x/Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app.dSYM
+x/Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app/ToyClock
+lSLF07#2@98"GenerateDSYMFile build/Debug-iphoneos/ToyClock.app.dSYM build/Debug-iphoneos/ToyClock.app/ToyClock317033490#317033490#0(0"0(0#0#71"/Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app/ToyClock2424033936#335"    cd /Users/test/Desktop/ToyClock    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app/ToyClock -o /Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app.dSYM0#
+
+CLd /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv6/ToyClock normal armv6
+s317033490.512475
+e317033490.545207
+r1
+xLd
+x/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv6/ToyClock
+xnormal
+xarmv6
+lSLF07#2@114"Link /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv6/ToyClock317033490#317033490#0(0"0(0#0#0"2424033936#819"    cd /Users/test/Desktop/ToyClock    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/test/Desktop/ToyClock/build/Debug-iphoneos -F/Users/test/Desktop/ToyClock/build/Debug-iphoneos -filelist /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv6/ToyClock.LinkFileList -dead_strip -miphoneos-version-min=3.1.3 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv6/ToyClock0#
+
+CLd /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv7/ToyClock normal armv7
+s317033490.564826
+e317033490.587045
+r1
+xLd
+x/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv7/ToyClock
+xnormal
+xarmv7
+lSLF07#2@114"Link /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv7/ToyClock317033490#317033490#0(0"0(0#0#0"2424033936#819"    cd /Users/test/Desktop/ToyClock    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/test/Desktop/ToyClock/build/Debug-iphoneos -F/Users/test/Desktop/ToyClock/build/Debug-iphoneos -filelist /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv7/ToyClock.LinkFileList -dead_strip -miphoneos-version-min=3.1.3 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/Objects-normal/armv7/ToyClock0#
+
+CProcessInfoPlistFile /Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app/Info.plist ToyClock-Info.plist
+s317033488.978864
+e317033488.983834
+r1
+xProcessInfoPlistFile
+x/Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app/Info.plist
+xToyClock-Info.plist
+lSLF07#2@27"Process ToyClock-Info.plist317033488#317033488#0(0"0(0#0#48"/Users/test/Desktop/ToyClock/ToyClock-Info.plist2424033936#526"    cd /Users/test/Desktop/ToyClock    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ToyClock-Info.plist -genpkginfo /Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app/ResourceRules.plist -o /Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app/Info.plist0#
+
+CProcessPCH /var/folders/Ny/Nyo1sDkIEfKsOgMbnrHAZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ToyClock_Prefix-cmdoewzlycmkzkbjtvbjdwvwdwhm/ToyClock_Prefix.pch.gch ToyClock_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317033489.442913
+e317033490.390559
+r1
+xProcessPCH
+x/var/folders/Ny/Nyo1sDkIEfKsOgMbnrHAZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ToyClock_Prefix-cmdoewzlycmkzkbjtvbjdwvwdwhm/ToyClock_Prefix.pch.gch
+xToyClock_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile ToyClock_Prefix.pch317033489#317033490#0(0"0(0#0#48"/Users/test/Desktop/ToyClock/ToyClock_Prefix.pch2424033936#1543"    cd /Users/test/Desktop/ToyClock    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock-generated-files.hmap -I/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock-own-target-headers.hmap -I/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock-all-target-headers.hmap -iquote /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock-project-headers.hmap -F/Users/test/Desktop/ToyClock/build/Debug-iphoneos -I/Users/test/Desktop/ToyClock/build/Debug-iphoneos/include -I/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/DerivedSources/armv6 -I/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/DerivedSources -c /Users/test/Desktop/ToyClock/ToyClock_Prefix.pch -o /var/folders/Ny/Nyo1sDkIEfKsOgMbnrHAZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ToyClock_Prefix-cmdoewzlycmkzkbjtvbjdwvwdwhm/ToyClock_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Ny/Nyo1sDkIEfKsOgMbnrHAZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ToyClock_Prefix-codevnjvtlzuttbokythbofaxkba/ToyClock_Prefix.pch.gch ToyClock_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317033489.443845
+e317033490.406921
+r1
+xProcessPCH
+x/var/folders/Ny/Nyo1sDkIEfKsOgMbnrHAZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ToyClock_Prefix-codevnjvtlzuttbokythbofaxkba/ToyClock_Prefix.pch.gch
+xToyClock_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile ToyClock_Prefix.pch317033489#317033490#0(0"0(0#0#48"/Users/test/Desktop/ToyClock/ToyClock_Prefix.pch2424033936#1543"    cd /Users/test/Desktop/ToyClock    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock-generated-files.hmap -I/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock-own-target-headers.hmap -I/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock-all-target-headers.hmap -iquote /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock-project-headers.hmap -F/Users/test/Desktop/ToyClock/build/Debug-iphoneos -I/Users/test/Desktop/ToyClock/build/Debug-iphoneos/include -I/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/DerivedSources/armv7 -I/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/DerivedSources -c /Users/test/Desktop/ToyClock/ToyClock_Prefix.pch -o /var/folders/Ny/Nyo1sDkIEfKsOgMbnrHAZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ToyClock_Prefix-codevnjvtlzuttbokythbofaxkba/ToyClock_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Ny/Nyo1sDkIEfKsOgMbnrHAZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ToyClock_Prefix-feuhifgyqnxrldaevndivvyxkkkx/ToyClock_Prefix.pch.gch ToyClock_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317027982.042521
+e317027983.002975
+r1
+xProcessPCH
+x/var/folders/Ny/Nyo1sDkIEfKsOgMbnrHAZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ToyClock_Prefix-feuhifgyqnxrldaevndivvyxkkkx/ToyClock_Prefix.pch.gch
+xToyClock_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile ToyClock_Prefix.pch317027982#317027983#0(0"0(0#0#48"/Users/test/Desktop/ToyClock/ToyClock_Prefix.pch2424033936#1541"    cd /Users/test/Desktop/ToyClock    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock-generated-files.hmap -I/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock-own-target-headers.hmap -I/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock-all-target-headers.hmap -iquote /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock-project-headers.hmap -F/Users/test/Desktop/ToyClock/build/Debug-iphoneos -I/Users/test/Desktop/ToyClock/build/Debug-iphoneos/include -I/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/DerivedSources/armv6 -I/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/DerivedSources -c /Users/test/Desktop/ToyClock/ToyClock_Prefix.pch -o /var/folders/Ny/Nyo1sDkIEfKsOgMbnrHAZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ToyClock_Prefix-feuhifgyqnxrldaevndivvyxkkkx/ToyClock_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Ny/Nyo1sDkIEfKsOgMbnrHAZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ToyClock_Prefix-gwytpiomcyiykmfbpmmrpzaujryx/ToyClock_Prefix.pch.gch ToyClock_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317027982.043432
+e317027983.093741
+r1
+xProcessPCH
+x/var/folders/Ny/Nyo1sDkIEfKsOgMbnrHAZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ToyClock_Prefix-gwytpiomcyiykmfbpmmrpzaujryx/ToyClock_Prefix.pch.gch
+xToyClock_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile ToyClock_Prefix.pch317027982#317027983#0(0"0(0#0#48"/Users/test/Desktop/ToyClock/ToyClock_Prefix.pch2424033936#1541"    cd /Users/test/Desktop/ToyClock    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock-generated-files.hmap -I/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock-own-target-headers.hmap -I/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock-all-target-headers.hmap -iquote /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock-project-headers.hmap -F/Users/test/Desktop/ToyClock/build/Debug-iphoneos -I/Users/test/Desktop/ToyClock/build/Debug-iphoneos/include -I/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/DerivedSources/armv7 -I/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/DerivedSources -c /Users/test/Desktop/ToyClock/ToyClock_Prefix.pch -o /var/folders/Ny/Nyo1sDkIEfKsOgMbnrHAZk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ToyClock_Prefix-gwytpiomcyiykmfbpmmrpzaujryx/ToyClock_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/test/Library/MobileDevice/Provisioning Profiles/FD0F313F-6815-44FA-989E-F737415F2D5E.mobileprovision" /Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app/embedded.mobileprovision
+s317033490.611481
+e317033490.612534
+r1
+xProcessProductPackaging
+x/Users/test/Library/MobileDevice/Provisioning Profiles/FD0F313F-6815-44FA-989E-F737415F2D5E.mobileprovision
+x/Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app/embedded.mobileprovision
+lSLF07#2@192"ProcessProductPackaging "/Users/test/Library/MobileDevice/Provisioning Profiles/FD0F313F-6815-44FA-989E-F737415F2D5E.mobileprovision" build/Debug-iphoneos/ToyClock.app/embedded.mobileprovision317033490#317033490#0(0"0(0#0#87"/Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app/embedded.mobileprovision2424033936#403"    cd /Users/test/Desktop/ToyClock    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/test/Library/MobileDevice/Provisioning Profiles/FD0F313F-6815-44FA-989E-F737415F2D5E.mobileprovision" -o /Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock.xcent
+s317033490.615333
+e317033490.638247
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock.xcent
+lSLF07#2@178"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock.xcent317033490#317033490#0(0"0(0#0#94"/Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock.xcent2424033936#415"    cd /Users/test/Desktop/ToyClock    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/test/Desktop/ToyClock/build/ToyClock.build/Debug-iphoneos/ToyClock.build/ToyClock.xcent0#
+
+CTouch /Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app
+s317033490.612647
+e317033490.615237
+r1
+xTouch
+x/Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app
+lSLF07#2@68"Touch /Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app317033490#317033490#0(0"0(0#0#0"2424033936#245"    cd /Users/test/Desktop/ToyClock    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/test/Desktop/ToyClock/build/Debug-iphoneos/ToyClock.app0#
+
