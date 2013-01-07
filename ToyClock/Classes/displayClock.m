@@ -1,10 +1,3 @@
-//
-//  displayClock.m
-//  ToyClock
-//
-//  Created by test on 11-1-18.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
-//
 
 #import "displayClock.h"
 
